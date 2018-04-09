@@ -8,8 +8,8 @@ $(document).ready(function(){
   $(".background2").delay(31500).fadeOut(3000);
   //$(".content2").delay(35000).fadeOut(3000);
   $(".background3").delay(38000).show(0);
-  var boatdown = document.getElementById("boat_down");
-  var boatup = document.getElementById("boat_up");
+  var boatdown = document.getElementsByClassName("boat_down");
+  var boatup = document.getElementsByClassName("boat_up");
   $(boatdown).hover(function(){
     $(boatdown).css('opacity',0.5);
     $(boatup).css('opacity',1);
