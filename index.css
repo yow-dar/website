@@ -40,13 +40,13 @@
 }
 .boat_down{
   position : relative ;
-  width : 80px ;
-  height : 60px ;
-  display:none;
+  width : 160px ;
+  height : 110px ;
 }
 .boat_up{
   position : relative ;
-  width : 80px ;
-  height : 60px ;
-  display:none;
+  width : 160px ;
+  height : 110px ;
+  //display:none;
+  opacity: 0;
 }

@@ -17,6 +17,7 @@ $(document).ready(function(){
   });
   //left mouse onclick
   $(window).click(function(){
-    $(boatup).animate({opacity: 0.5, left: "100px"},1000);  
+    if($(".background3").css("style")!="none" )
+      $(boatup).animate({opacity: 0.5, left: "100px"},1000);  
   })
 });
