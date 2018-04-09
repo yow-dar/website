@@ -11,13 +11,12 @@ $(document).ready(function(){
   var boatdown = document.getElementsByClassName("boat_down");
   var boatup = document.getElementsByClassName("boat_up");
   $(boatdown).hover(function(){
-    $(boatdown).css('opacity',0.5);
-    $(boatup).css('opacity',1);
-    $(boatup).css('right','+5%');
+    //$(boatdown).css('opacity',0.5);
+    //$(boatup).css('opacity',1);
+    //$(boatup).css('right','+5%');
   });
   //left mouse onclick
-  $(window).click(function(){
-    if($(".background3").css("style")!="none" )
-      $(boatup).animate({opacity: 0.5, left: "100px"},1000);  
+  $(boatdown).click(function(){
+      $(boatdown).animate({ left: "+500px"},5000);  
   })
 });
