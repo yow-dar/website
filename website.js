@@ -3,11 +3,11 @@ $(document).ready(function(){
   $(".content").delay(4000).fadeIn(2000);
   $("#background1").delay(18000).fadeOut(1000);
   //$(".content").delay(18000).fadeOut(1000);
-  $(".background2").delay(19000).show();
+  $(".background2").delay(19000).show(0);
   $(".content2").delay(19000).fadeIn(2000);
   $(".background2").delay(31500).fadeOut(3000);
   //$(".content2").delay(35000).fadeOut(3000);
-  $(".background3").delay(38000).show();
+  $(".background3").delay(38000).show(0);
   var boatdown = document.getElementById("boat_down");
   var boatup = document.getElementById("boat_up");
   $(boatdown).hover(function(){
