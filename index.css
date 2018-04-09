@@ -19,7 +19,7 @@
   height : 600px ;
   border : 0;
   position : absolute;
-  background-image : url(底圖2.png) ;
+  background-image : url(底圖1.png) ;
   display:none;
 }
 .background3{
@@ -39,6 +39,12 @@
   top : 100px ;
 }
 .boat_down{
+  position : relative ;
+  width : 80px ;
+  height : 60px ;
+  display:none;
+}
+.boat_up{
   position : relative ;
   width : 80px ;
   height : 60px ;

@@ -16,7 +16,7 @@ $(document).ready(function(){
     $(boatup).css('right','+5%');
   });
   //left mouse onclick
-  $("Left_House").click(function(){
+  $(window).click(function(){
     $(boatup).animate({opacity: 0.5, left: "100px"},1000);  
   })
 });
