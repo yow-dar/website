@@ -29,6 +29,7 @@
   position : absolute;
   background-image : url(底圖3.png) ;
   display:none;
+  overflow:hidden;
 }
 .content2{
   font-size : 24 ;
