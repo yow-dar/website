@@ -1,12 +1,13 @@
 $(document).ready(function(){
   $("#background1").delay(2000).fadeIn(2000);
-  $("#content").delay(0).fadeIn(2000);
-  $("#background1").delay(12000).fadeOut(1000);
-  $(".background2").show();
-  $(".content2").delay(1000).fadeIn(2000);
-  $(".background2").delay(500).fadeOut(3000);
-  $(".content2").delay(500).fadeOut(3000);
-  $(".background3").show();
+  $(".content").delay(4000).fadeIn(2000);
+  $("#background1").delay(18000).fadeOut(1000);
+  $(".content").delay(18000).fadeOut(1000);
+  $(".background2")delay(19000).show();
+  $(".content2").delay(19000).fadeIn(2000);
+  $(".background2").delay(21500).fadeOut(3000);
+  $(".content2").delay(25000).fadeOut(3000);
+  $(".background3").delay(28000).show();
   var boatdown = document.getElementById("boat_down");
   var boatup = document.getElementById("boat_up");
   $(boatdown).hover(function(){
