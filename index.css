@@ -1,0 +1,44 @@
+#background1{
+  width : 800px ;
+  height : 600px ;
+  border : 0;
+  position : absolute;
+  background-image : url(底圖1.png) 
+}
+
+.content{
+  font-size : 12 ;
+  font-family : Arial ;
+  color : black ;
+  position : absolute ;
+  left : -30% ;
+  top : 100px ;
+}
+#background2{
+  width : 800px ;
+  height : 600px ;
+  border : 0;
+  position : absolute;
+  background-image : url(底圖2.png) 
+}
+#background3{
+  width : 800px ;
+  height : 600px ;
+  border : 0;
+  position : absolute;
+  background-image : url(底圖3.png) 
+}
+.content2{
+  font-size : 12 ;
+  font-family : Arial ;
+  color : black ;
+  position : absolute ;
+  left : -30% ;
+  top : 100px ;
+}
+.boat_down{
+  position : relative ;
+  width : 80px ;
+  height : 60px ;
+
+}
