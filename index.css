@@ -1,6 +1,6 @@
 #background1{
-  width : 800px ;
-  height : 600px ;
+  width : 1920px ;
+  height : 1080px ;
   border : 0;
   position : absolute;
   background-image : url(底圖1.png) ;
@@ -15,16 +15,16 @@
   top : 100px ;
 }
 .background2{
-  width : 800px ;
-  height : 600px ;
+  width : 1920px ;
+  height : 1080px ;
   border : 0;
   position : absolute;
   background-image : url(底圖1.png) ;
   display:none;
 }
 .background3{
-  width : 800px ;
-  height : 600px ;
+  width : 1920px ;
+  height : 1080px ;
   border : 0;
   position : absolute;
   background-image : url(底圖3.png) ;
