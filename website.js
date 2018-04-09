@@ -17,6 +17,6 @@ $(document).ready(function(){
   });
   //left mouse onclick
   $(boatdown).click(function(){
-      $(boatdown).animate({ left: "+500px"},5000);  
+      $(boatdown).animate({ left: "+=500px"},5000);  
   })
 });
